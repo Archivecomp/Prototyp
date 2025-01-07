@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Page x:Class="neuesmodell.Views.Pages.Hilfeseiten.Titelblattanalyse"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:i="using:Microsoft.Xaml.Interactivity"
+      xmlns:ic="using:Microsoft.Xaml.Interactions.Core"
+      xmlns:local="using:neuesmodell"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:wuc="using:WinUICommunity"
+      mc:Ignorable="d">
+
+    <ScrollViewer>
+        <StackPanel x:Name="Contentframe" Orientation="Horizontal">
+            <StackPanel x:Name="Spalte1" Margin="10,0,0,0">
+                <TextBlock FontSize="16" FontWeight="Bold" Text="Wozu dient die Titelblattanalyse?" Margin="0,0,0,10"/>
+                <TextBlock TextWrapping="Wrap" Margin="10,0,0,20" Width="500">
+                Das Titelblatt der frühen Neuzeit enthält viele Informationen über den Inhalt und die Produktionsbedingungen des Werkes, dem es vorangestellt ist. Es besaß besonders im 16. und 17. Jahrhundert eine werbende Funktion, da es noch keine Zeitungsrezensionen gab, die über Bücher informierten. Zudem wurden Bücher zu dieser Zeit ungebunden verkauft, d.h. das Titelblatt war das erste was potentielle Käufer vom Buch sahen. Es musste also optisch ansprechend sein und über den Inhalt sowie den Nutzen des Buches informieren. Deswegen wurden im Laufe des 16. Jahrhunderts immer mehr Informationen auf den Titelblättern verschriftlich. Über das ganze 17. Jahrhundert hinweg waren die Titelmenge mit einer großen Textmenge gefüllt, die erst im 18. Jahrhundert wieder abnahm. Diese Fülle an Informationen auf dem Titelblatt macht die Titelblattanalyse zu einem wichtigen Schritt in der Erschließung von Büchern der frühen Neuzeit als Quelle.
+
+                </TextBlock>
+
+                <TextBlock FontSize="16" FontWeight="Bold" Text="Welche Informationen kann ich auf einem Titelblatt finden?" Margin="0,0,0,10"/>
+                <TextBlock TextWrapping="Wrap" Margin="10,0,0,20" Width="500">
+                Bei den hier aufgelisteten Informationen handelt es sich um Abschnitte, die in einer Untersuchung häufig auf Titelblättern der frühen Neuzeit beobachtet wurden, aber nicht auf jedem. Daraus ergibt sich, dass nicht alle aufgelisteten Information auf jedem Titelblatt zu finden sind. Auch gibt es Informationen, die auf einem Titelblatt auftauchen können, die hier nicht aufgelistet sind. Vor allem bei Textsorten, die in der Untersuchung nicht berücksichtigt wurden.[1]
+
+                </TextBlock>
+                <TextBlock FontWeight="Bold" Text="Potenzieller Werttitel" Margin="10,0,0,2"/>
+                <TextBlock Text="Eine kurze, einprägsame Nennung des Hauptgeschehens, der Hauptfigur o. ä. charakteristischer Elemente des Werks. Oft eng mit einer Inhaltsangabe verbunden, weshalb das Ende des Titels schwer zu ermitteln sein kann."
+                           Margin="15,0,0,10" Width="500" TextWrapping="Wrap"/>
+
+                <TextBlock FontWeight="Bold" Text="Gattungsbezeichnung" Margin="10,0,0,2"/>
+                <TextBlock Text="Ein Begriff, der das Werk einer Textsorte, einem Texttyp o.ä. zuweist. Er kann statt einem potenziellen Titel auf dem Titelblatt stehen oder in ihm enthalten sein."
+                           Margin="15,0,0,10" Width="500" TextWrapping="Wrap"/>
+
+                <TextBlock FontWeight="Bold" Text="Inhalt" Margin="10,0,0,2"/>
+                <TextBlock Text="Die Inhaltsangabe schildert entweder das Geschehen bzw. das Thema eines Werkes oder sie erläutert den Titel näher, der ihr vorangestellt ist."
+                           Margin="15,0,0,10" Width="500" TextWrapping="Wrap"/>
+
+                <TextBlock FontWeight="Bold" Text="Verfasser" Margin="10,0,0,2"/>
+                <TextBlock Text="Geistiger Urheber eines Werkes"
+                           Margin="15,0,0,10" Width="500" TextWrapping="Wrap"/>
+
+                <TextBlock FontWeight="Bold" Text="Körperschaft" Margin="10,0,0,2"/>
+                <TextBlock Text="Personenvereinigung, Organisation, Institution oder Gebietskörperschaft die als Auftraggeber oder geistiger Urheber des Werkes auftritt"
+                            Margin="15,0,0,10" Width="500" TextWrapping="Wrap"/>
+
+                <TextBlock FontWeight="Bold" Text="Zielgruppe" Margin="10,0,0,2"/>
+                <TextBlock Text="Gezielte Ansprache eine Gruppe an Menschen, für die das Werk von Interesse sein könnte"
+                            Margin="15,0,0,10" Width="500" TextWrapping="Wrap"/>
+
+                <TextBlock FontWeight="Bold" Text="Zweck/Lesegewinn" Margin="10,0,0,2"/>
+                <TextBlock Text="Die Nennung eines oder mehrerer Nutzen, die ein Leser aus der Lektüre des Werkes gewinnen kann."
+                            Margin="15,0,0,10" Width="500" TextWrapping="Wrap"/>
+
+                <TextBlock FontWeight="Bold" Text="Aufbau/Struktur" Margin="10,0,0,2"/>
+                <TextBlock Margin="15,0,0,10" Width="500" TextWrapping="Wrap">
+                    1. Angaben über die Länge, Vollständigkeit eines Werkes oder die Anzahl der in ihm enthaltenen Texte.
+                    <LineBreak/>
+	                2. Angaben über Bestandteile oder Beigaben
+                    <LineBreak/>
+	                3. Angaben zur Gliederung und Reihenfolge von Buchabschnitten
+                    <LineBreak/>
+                    4. Angaben über die Mehrteiligkeit des Werkes
+                </TextBlock>
+
+                <TextBlock FontWeight="Bold" Text="Auflage" Margin="10,0,0,2"/>
+                <TextBlock Text="Angabe der Auflage"
+                            Margin="15,0,0,10" Width="500" TextWrapping="Wrap"/>
+
+                <TextBlock FontWeight="Bold" Text="Übersetzung" Margin="10,0,0,2"/>
+                <TextBlock Text="Expliziter Hinweis, dass es sich bei dem Buch um eine Übersetzung handelt"
+                            Margin="15,0,0,10" Width="500" TextWrapping="Wrap"/>
+
+                <TextBlock FontWeight="Bold" Text="Übersetzer" Margin="10,0,0,2"/>
+                <TextBlock Text="Angabe über die für die Übersetzung verantwortliche Person"
+                            Margin="15,0,0,10" Width="500" TextWrapping="Wrap"/>
+
+                <TextBlock FontWeight="Bold" Text="Drucker" Margin="10,0,0,2"/>
+                <TextBlock Text="Person, die für die handwerkliche Produktion des Werkes verantwortlich war. Der Drucker ist in der frühen Neuzeit, besonders im 16. Jahrhundert, schwer vom Verleger und Buchhändler zu unterscheiden. Die liegt am Mischbetrieb, der im 16. Jahrhundert noch üblich war und erst mit dem 17. Jahrhundert begann, sich aufzutrennen. Frühdrucker vereinten Druck, Verlag und Handel in einer Person. Deswegen kann es auch sein, dass die selbe Person auf einem Titelblatt als Drucker und auf einem anderen als Verleger ausgewiesen wird."
+                            Margin="15,0,0,10" Width="500" TextWrapping="Wrap"/>
+
+                <TextBlock FontWeight="Bold" Text="Verleger" Margin="10,0,0,2"/>
+                <TextBlock Text="Person, die die Herstellung organisiert und koordiniert, sowie die Kosten trägt."
+                            Margin="15,0,0,10" Width="500" TextWrapping="Wrap"/>
+
+                <TextBlock FontWeight="Bold" Text="Buchhändler" Margin="10,0,0,2"/>
+                <TextBlock Text="Person die nur in Verbindung mit dem Vertrieb des Buches genannt wird."
+                            Margin="15,0,0,10" Width="500" TextWrapping="Wrap"/>
+
+                <TextBlock FontWeight="Bold" Text="Druckort" Margin="10,0,0,2"/>
+                <TextBlock Text="Ort an dem ein Werk gedruckt wurde"
+                            Margin="15,0,0,10" Width="500" TextWrapping="Wrap"/>
+
+                <TextBlock FontWeight="Bold" Text="Druckjahr" Margin="10,0,0,2"/>
+                <TextBlock Text="Jahr in dem ein Werk gedruckt wurde"
+                            Margin="15,0,0,10" Width="500" TextWrapping="Wrap"/>
+
+                <TextBlock FontWeight="Bold" Text="Druckprivileg" Margin="10,0,0,2"/>
+                <TextBlock Text="Von einem Feudalherrn ausgewiesenes Privileg zum Drucken eines Werkes"
+                            Margin="15,0,0,10" Width="500" TextWrapping="Wrap"/>
+
+                <TextBlock FontWeight="Bold" Text="Achtung: Gerade in Verbindung mit Zensur oder unerlaubten Nachdrucken können Namen und Orte auf dem Titelblatt fingiert sein" TextWrapping="Wrap" Width="500" Margin="10,0,0,5"/>
+
+                <TextBlock FontSize="16" FontWeight="Bold" Text="Wo auf dem Titelblatt kann ich diese Informationen finden?" Margin="0,20,0,10"/>
+                <TextBlock TextWrapping="Wrap" Margin="10,0,0,20" Width="500">
+                    Bei der folgenden Angabe handelt es sich um eine unverbindliche Reihenfolge, die Götz u.a. auf Grundlage von Häufigkeitszahlen, die sich bei ihren Untersuchungen ergaben, aufgestellt haben. Sie dient als Orientierungshilfe, garantiert aber nicht, dass die Informationen in dieser Reihenfolge auftreten. Vor allem bei Textsorten, die nicht in ihrer Untersuchung berücksichtigt wurden, kann die Reihenfolge stark abweichen. [1]
+                </TextBlock>
+                <TextBlock TextWrapping="Wrap" Margin="10,0,0,20" Width="500" TextAlignment="Center">
+                    [VERFASSER/KÖRPERSCHAFT]
+                    <LineBreak/>
+                    POTENZIELLER WERKTITEL/GATTUNGSBEZEICHNUNG
+                    <LineBreak/>
+                    INHALTSANGABE
+                    <LineBreak/>
+                    [ZIELGRUPPE + ZWECK/LESEGEWINN]
+                    <LineBreak/>
+                    [AUFBAU/STRUKTUR]
+                    <LineBreak/>
+                    [VERFASSER]
+                    <LineBreak/>
+                    [ÜBERSETZUNG/ÜBERSETZER]
+                    <LineBreak/>
+                    [AUFLAGE]
+                    <LineBreak/>
+                    [DRUCKPRIVILEG]
+                    <LineBreak/>
+                    DRUCKORT
+                    <LineBreak/>
+                    DRUCKER/VERLEGER [+ BUCHHÄNDLER]
+                    <LineBreak/>
+                    DRUCKJAHR
+                </TextBlock>
+                <TextBlock TextWrapping="Wrap" Margin="10,0,0,20" Width="500">
+                    Im oberen Drittel befindet sich auf dem Titelblatt in der Regel der Verfasser und der potenzielle Werktitel. Der Verfasser kann aber auch mit den anderen Informationen in der Mitte des Titelblatts stehen. Die Druckangaben stehen in der Regel unten auf dem Titelblatt und sind durch einen Leerraum, einer Illustration oder einem Schmuckelement von dem Rest getrennt.
+                </TextBlock>
+
+                <TextBlock Text="[1] Götz, Ursula u.a.: Die Syntax von Titelblättern des 16. und 17. Jahrhunderts. In: Lingua Historica Germanica 17 (2017). DOI: https://doi.org/10.1515/9783110545562." Margin="10,0,0,10" Width="500" TextWrapping="Wrap"/>
+                <TextBlock Text="[2] Wulff, Hans J.: Zur Textsemiotik des Titels. (2016). DOI: https://doi.org/urn:nbn:de:gbv:8-publ-11636." Margin="10,0,0,10" Width="500" TextWrapping="Wrap"/>
+                <TextBlock Text="[3] Rautenberg, Ursula: Das Titelblatt. Die Entstehung eines typographischen Dispositivs im frühen Buchdruck. In: Alles Buch. Studien der Erlanger Buchwissenschaft 10 (2004). DOI: https://doi.org/urn:nbn:de:bvb:29-opus4-58386." Margin="10,0,0,10" Width="500" TextWrapping="Wrap"/>
+            </StackPanel>
+            <StackPanel x:Name="Spalte2" Margin="20,0,0,0">
+                <TextBlock FontSize="16" FontWeight="Bold" Text="Wie hat sich das Titelblatt im Verlauf der frühen Neuzeit verändert?" Margin="0,0,0,10"/>
+                <TextBlock TextWrapping="Wrap" Margin="10,0,0,20" Width="500">
+                    Bei den hier abgebildeten Informationen handelt es sich um Trends, wie sich die Titelblätter jeweils in den Jahrhunderten veränderten. Die Reihenfolge innerhalb der Jahrhundert spiegelt dabei keine wirkliche zeitliche Reihenfolge der Trends wieder. Es werden hier nur verschiedene Trends den jeweiligen Jahrhunderten zugeordnet.
+                </TextBlock>
+                <TextBlock FontWeight="Bold" Text="1500" Margin="10,0,0,2"/>
+                <TextBlock Margin="15,0,0,10" Width="500" TextWrapping="Wrap">
+                    Titelblätter werden langsam zur Norm im Buchdruck
+                    <LineBreak/>
+                    Titelblätter erfüllen Werbefunktion
+                    <LineBreak/>
+                    Holzschnitt als Technik für Illustrationen auf Titelblättern
+                    <LineBreak/>
+                    Textmenge auf den Titelblättern nimmt zu, da immer mehr Informationen auf den Titelblättern Verschriftlich werden
+                    <LineBreak/>
+                    Typografische Gestaltung deckt sich nicht mit Sinneinheiten. Verschiedene Druckfarben und unterschiedliche Schriftgrößen haben rein optische Funktion und dienen nicht der Trennung verschiedener Abschnitte.
+                    <LineBreak/>
+                    Text auf Titelblättern wird in Formen angeordnet. Sinneinheiten werden dabei nicht beachtet und Worttrennungen werden willkürlich vollzogen
+                </TextBlock>
+                <TextBlock FontWeight="Bold" Text="1600" Margin="10,0,0,2"/>
+                <TextBlock Margin="15,0,0,10" Width="500" TextWrapping="Wrap">
+                    Textmenge auf den Titelblättern sehr hoch.
+                    <LineBreak/>
+                    Texte werden nicht mehr in Figuren angeordnet, da der der ganze Raum auf dem Titelblatt gebraucht wird, um den Text abzubilden.
+                    <LineBreak/>
+                    Der Kupferstich löst den Holzschnitt als Technik für die Illustrationen ab.
+                    <LineBreak/>
+                    Die Typografische Gestaltung deckt sich weiterhin nicht mit den Sinnabschnitten
+                </TextBlock>
+                <TextBlock FontWeight="Bold" Text="1700" Margin="10,0,0,2"/>
+                <TextBlock Margin="15,0,0,10" Width="500" TextWrapping="Wrap">
+                    Die Textmenge auf den Titelblättern nimmt wieder ab. Titelblätter werden mehr auf eine schnelle Orientierung für den Leser im großen Buchangebot ausgerichtet. Zeitungsrezensionen übernehmen Informationsfunktion über den Inhalt von Werken.
+                    <LineBreak/>
+                    Um eine schnelle Orientierung zu ermöglichen werden typografische Gestaltungsmethoden genutzt, um Sinneinheit auszuzeichnen. Wichtige Abschnitte wie Verfasser und Titel werden nun größer oder in einer anderen Farbe gedruckt.
+                    <LineBreak/>
+                    Illustrationen auf den Titelblättern nehmen ab, weil zunächst Frontispize und dann Buchumschläge die Aufgabe des Blickfangs übernehmen
+                </TextBlock>
+                <TextBlock FontWeight="Bold" Text="1800" Margin="10,0,0,2"/>
+            </StackPanel>
+            
+        </StackPanel>
+
+    </ScrollViewer>
+            
+
+
+</Page>
+

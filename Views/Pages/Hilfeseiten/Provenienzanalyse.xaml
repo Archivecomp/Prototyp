@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Page x:Class="neuesmodell.Views.Pages.Hilfeseiten.Provenienzanalyse"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:i="using:Microsoft.Xaml.Interactivity"
+      xmlns:ic="using:Microsoft.Xaml.Interactions.Core"
+      xmlns:local="using:neuesmodell"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:wuc="using:WinUICommunity"
+      mc:Ignorable="d">
+
+    <ScrollViewer>
+        <StackPanel x:Name="Contentframe" Orientation="Horizontal">
+            <StackPanel x:Name="Spalte1" Margin="10,0,0,0">
+                <TextBlock FontSize="16" FontWeight="Bold" Text="Wozu dient die Provenienzanalyse?" Margin="0,0,0,10"/>
+                <TextBlock TextWrapping="Wrap" Margin="10,0,0,20" Width="500" HorizontalAlignment="Left">
+                    Durch Provenienzmerkmale können Informationen über die Herkunft eines Buches und seine Geschichte erschlossen werden. So kann mithilfe von Provenienzmerkmalen z.B. das Alter eines Buches und vergangene Besitzer ermittelt werden. Über vorherige Besitzer können zudem Informationen gefunden werden, wie er das Buch genutzt hatte, welche Kaufkraft er wohlmöglich besaß oder wem er es vielleicht geschenkt hat. Zudem können auch Informationen zu den Produktionsbedingungen und Distributionswegen gewonnen werden.
+
+                </TextBlock>
+
+                <TextBlock FontSize="16" FontWeight="Bold" Text="Welche Provenienzmerkmale kann ich für die Beantwortung meiner Frage heranziehen?" Margin="0,0,0,10" Width="500" TextWrapping="Wrap" HorizontalAlignment="Left"/>
+                <TextBlock TextWrapping="Wrap" Margin="10,0,0,20" Width="500" HorizontalAlignment="Left">
+                    Die folgenden Fragen sollen dir dabei helfen, welche Provenienzmerkmale für deine Fragen geeignet sind
+                </TextBlock>
+                <TextBlock FontWeight="Bold" Text="Wann und wo ist das Buch entstanden?" Margin="10,0,0,2"/>
+                <TextBlock Text="Wasserzeichen, Einband"
+                           Margin="15,0,0,10" Width="500" TextWrapping="Wrap" HorizontalAlignment="Left"/>
+
+                <TextBlock FontWeight="Bold" Text="Wer hat es in Auftrag gegeben oder gekauft und für welchen Zweck?" Margin="10,0,0,2"/>
+                <TextBlock Text="Exlibris, Einband, Handschriftliche Annotationen "
+                           Margin="15,0,0,10" Width="500" TextWrapping="Wrap" HorizontalAlignment="Left"/>
+
+                <TextBlock FontWeight="Bold" Text="Was hat es gekostet? " Margin="10,0,0,2"/>
+                <TextBlock Text="Handschriftliche Annotationen"
+                           Margin="15,0,0,10" Width="500" TextWrapping="Wrap" HorizontalAlignment="Left"/>
+
+                <TextBlock FontWeight="Bold" Text="Welche Handwerker und Künstler waren daran beteiligt?" Margin="10,0,0,2"/>
+                <TextBlock Text="Einband"
+                           Margin="15,0,0,10" Width="500" TextWrapping="Wrap" HorizontalAlignment="Left"/>
+
+                <TextBlock FontWeight="Bold" Text="In wessen Besitz gelangte es im Laufe der Zeit und unter welchen Umständen?" Margin="10,0,0,2"/>
+                <TextBlock Text="Exlibris, Handschriftliche Annotationen"
+                            Margin="15,0,0,10" Width="500" TextWrapping="Wrap" HorizontalAlignment="Left"/>
+
+                <TextBlock FontWeight="Bold" Text="Wurde es häufig gelesen?" Margin="10,0,0,2"/>
+                <TextBlock Text="Handschriftliche Annotationen"
+                            Margin="15,0,0,10" Width="500" TextWrapping="Wrap" HorizontalAlignment="Left"/>
+
+                <TextBlock FontWeight="Bold" Text="Was fanden die Leser darin interessant?" Margin="10,0,0,2"/>
+                <TextBlock Text="Handschriftliche Annotationen"
+                            Margin="15,0,0,10" Width="500" TextWrapping="Wrap" HorizontalAlignment="Left"/>
+
+            </StackPanel>
+            <StackPanel x:Name="Spalte2" Margin="20,0,0,0">
+                <TextBlock FontWeight="Bold" Text="Handschriftliche Annotationen" Margin="10,0,0,2"/>
+                <TextBlock TextWrapping="Wrap" Margin="15,0,0,10" Width="500">
+                    Sammelgruppe an Provenienzmerkmalen, die sich alle dadurch auszeichnen, dass sie von einem Menschen dem Buch handschriftlich hinzugefügt wurden. Bei dem Menschen kann es sich um einen Besitzer des Buches handeln, der seinen Namen in das Buch eingetragen hat. Es könnte sich aber auch eine Widmung in dem Buch befinden, die Schenker, Beschenkten und deren Beziehung zueinander sowie den Anlass des Übergabe identifizieren. Ein Buchhändler kann im Buch Verkaufsinformationen festhalten, wie z.B. den Preis. Markierungen und Anmerkungen können Hinweise darüber geben, wie und für welchen Zweck ein Buch genutzt wurde. Die Bandbreite an Informationen, die durch handschriftliche Eintragungen gewonnen werden können, ist groß.
+                    <LineBreak/>
+                    Eine Hilfe bei der Transkription kann Transkribus bieten:
+                    <LineBreak/>
+                    https://www.transkribus.org/de
+
+                </TextBlock>
+                <TextBlock FontWeight="Bold" Text="Einband" Margin="10,0,0,2"/>
+                <TextBlock Margin="15,0,0,10" Width="500" TextWrapping="Wrap">
+                    Das Material und die Dekoration des Einbandes können zeigen, ob es sich um ein Prunkband oder Gebrauchsband handelt und somit auch Hinweise über die Kaufkraft des ehemaligen Besitzers geben. Nur wenige Fürsten und wohlhabende Bürger haben sich in der frühen Neuzeit künstlerische Einbände anfertigen lassen. Das Gebrauchsbuch zu dieser Zeit hatte meist einen Einband aus unverziertem Schweinspergament ohne durchgezogene Bünde. Die Dekoration eines Einbandes kann zudem Information über das Alter, den Buchbinder und den Besitzer des Buches geben. Im 16. Jahrhundert bevorzugten die deutschen Binder die Rolle und die Platte als Dekorationswerkzeuge. Mit der Platte wurde ein Wappen oder Bildnis in die Mitte des Buchdeckels gepresst und dann wurden Rahmen mit der Rolle gezogen, bis die Fläche gefüllt war. Das Motiv der Platte konnte den Binder oder auch den Bucheigentümer durch ein Porträt darstellen oder das Wappen des Bucheigentümers abbilden. Es dienten aber auch andere Persönlichkeiten oder Besitzermonogramme als Motiv. Bis zur Mitte des 16. Jahrhunderts war die Blindpressung die überwiegende Technik, wurde dann aber allmählich von der Vergoldung abgelöst, wobei die Blindpressung noch bis ins 17. Jahrhundert, besonders für wissenschaftliche Werke, verwendet wurde. Mit der zweiten Hälfte des 16. Jahrhunderts fanden aber auch andere Stile aus Frankreich und Italien so langsam ihren Weg nach Deutschland. Fürsten ließen sich ihre Bibliotheken gerne einheitlich Binden, wodurch bestimmte Muster, Stile und Buchbinder diese Bibliotheken als Herkunft eines Buches ausweisen können. Ein Buchbinderstempel auf dem Einband kann auch Hinweise auf einen Buchbinder geben.
+                    <LineBreak/>
+                    Eine hilfreiche Datenbank für das 16. Jahrhundert ist die Einbanddatenbank:
+                    <LineBreak/>
+                    https://www.hist-einband.de
+
+                </TextBlock>
+                <TextBlock FontWeight="Bold" Text="Exlibris" Margin="10,0,0,2"/>
+                <TextBlock Margin="15,0,0,10" Width="500" TextWrapping="Wrap">
+                    Wappen und Porträts können nicht nur auf dem Einband oder im Papier entdeckt werden, sondern auch auf dem Spiegel des Vorderdeckels, meist auf einem separaten Blatt Papier, welches eingeklebt. Im allgemeinen enthalten diese Darstellungen die Formel ,Ex libris. . .' (= ,aus den Büchern', d.h. aus der Bibliothek) mit dem entsprechenden Besitzernamen[...]. Aus dieser Formel bildete sich die Bezeichnung des Bucheignerzeichens. Es entstand mit dem frühen Buchdruck und hat sich aus den handschriftlichen Besitzervermerken im Mittelalter entwickelt. Die Verwendung setzte sich im 15. Jahrhundert mit der Möglichkeit der Vervielfältigung durch den Holzschnitt durch. Wie schon auf den Titelblättern wurde bei den Exlibris der Holzschnitt im 17. Jahrhundert durch den Kupferstich abgelöst. Es gibt eine sehr große Bandbreite an Motiven, die sich zudem meist sehr individuell auf den Besitzer beziehen.
+                    <LineBreak/>
+                    Eine hilfreiche Anlaufstelle ist die Exlibris-Sammlung der Bayrischen Staatsbibliothek:
+                    <LineBreak/>
+                    https://www.bsb-muenchen.de/sammlungen/historische-drucke/bestaende/exlibris/
+
+                </TextBlock>
+                <TextBlock FontWeight="Bold" Text="Wasserzeichen" Margin="10,0,0,2"/>
+                <TextBlock Margin="15,0,0,10" Width="500" TextWrapping="Wrap">
+                    Bei Wasserzeichen handelt es sich um Zeichen, die während der Produktion in das Papier eingearbeitet wurden und bei Durchsicht hell erscheinen. Sie dienten dazu Hersteller und Textsorte auszuzeichnen. Bis etwa 1650 war zunächst ein Wasserzeichen in einen Bogen eingearbeitet. Dieser bestand aus einem Hauptzeichen und einem Beizeichen. Das Hauptzeichen stellt ein Namengebendes Motiv dar, währen das Beizeichen den Hersteller ausweist. Nach 1650 hat sich das Beizeichen zu einem separatem Zeichen auf die andere Hälfte des Bogens abgesondert. In dieser Form wird es als Gegenzeichen bezeichnet.
+                    <LineBreak/>
+                    Für die Analyse wird das Wasserzeichen immer auf einem ungefalteten Bogen betrachtet. Der Bogen wird so orientiert, dass das Wasserzeichen aufrecht steht und richtig gelesen werden kann. Die Bestimmung eines Wasserzeichens in einem Buch gestaltet sich schwierig, da der Bogen gefaltet und beschnitten ist. Man muss sich den Bogen für die Betrachtung aufgeklappt vorstellen und gegebenenfalls das Wasserzeichen zusammensetzen.
+                    <LineBreak/>
+                    Eine Hilfreiche Datenbank ist das Wasserzeichen-Informationssystem:
+                    <LineBreak/>
+                    https://www.wasserzeichen-online.de
+                </TextBlock>
+
+                <TextBlock Text="[1] Klöpfel, Tanja: Provenienzforschung in Bibliotheken. buchhistorische Kür oder bibliothekari-sche Pflicht? Ausbildung für die Laufbahn des höheren Bibliotheksdienstes. ; Kurs hd 2004/2006 ; Datum des Vortrags: 14. Dezember 2005. cd, Bayer. Staatsbibliothek, Abt. Bayer. Bibliotheks-schule, 2005." Margin="10,20,0,10" Width="500" TextWrapping="Wrap"/>
+                <TextBlock Text="[2] Reclams Sachlexikon des Buches. Hrsg. von Ursula Rautenberg. Stuttgart: Reclam 2015, E-Book." Margin="10,0,0,10" Width="500" TextWrapping="Wrap"/>
+                <TextBlock Text="[3] Funke, Fritz: Buchkunde. Ein Überblick über die Geschichte des Buches. 6., überarb. und erg. Aufl. München: Saur 1999." Margin="10,0,0,10" Width="500" TextWrapping="Wrap"/>
+                <TextBlock Text="[4] Weiss, Karl Theodor: Handbuch der Wasserzeichenkunde. Reprint d. Orig.-Ausg. [Leipzig, Fach-buchverlag]. München [u.a.]: Saur, 1983." Margin="10,0,0,10" Width="500" TextWrapping="Wrap"/>
+            </StackPanel>
+
+        </StackPanel>
+
+    </ScrollViewer>
+            
+
+
+</Page>
+

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Page x:Class="neuesmodell.Views.Pages.Werkzeuge.Signaturenrechner"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:i="using:Microsoft.Xaml.Interactivity"
+      xmlns:ic="using:Microsoft.Xaml.Interactions.Core"
+      xmlns:local="using:neuesmodell"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:wuc="using:WinUICommunity"
+      mc:Ignorable="d">
+
+    <ScrollViewer>
+        <StackPanel>
+            <StackPanel>
+
+            </StackPanel>
+            <TextBlock Text="Mit dem Signaturrechner kannst du ganz einfach eine Bogensignatur in eine Seitenzahl und eine Seitenzahl in eine Bogensignatur umrechnen. Und falls du einen Buchumfang in Alphabeten und Bogen angegeben hast, kannst du die Angaben auch ganz einfach mit der dritten Umrechnungsfunktion umrechnen."
+                       Width="500"
+                       TextWrapping="Wrap"
+                       HorizontalAlignment="Left"
+                       Margin="10,5,0,0"/>
+            <RelativePanel>
+                <ComboBox
+                    x:Name="signaturrechner_combobox"
+                    SelectionChanged="Combobox_SelectionChanged"
+                    Header="Umrechnungsfunktionen"
+        
+                    Width="200"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    RelativePanel.AlignTopWithPanel="True"
+                    RelativePanel.AlignLeftWithPanel="True"
+                    Margin="50,10,10,10"
+                    Padding="{StaticResource ComboBoxPadding}"
+                    Loaded="signaturrechner_combobox_Loaded">
+                    <ComboBoxItem Content="Signatur zu Pagina"/>
+                    <ComboBoxItem Content="Pagina zu Signatur"/>
+                    <ComboBoxItem Content="Bogenzahl zu Seitenzahl"/>
+                </ComboBox>
+
+                <StackPanel
+                    x:Name="entrypanel"
+                    RelativePanel.Below="signaturrechner_combobox"
+                    Orientation="Horizontal">
+                    <TextBox x:Name="textboxsigltr1" Visibility="Collapsed" Header="Signaturbuchstabe:" PlaceholderText="z.B. A,Aa,AAa" Margin="50,10,10,10" Width="120"/>
+                    <TextBox x:Name="textboxsignmbr1" Visibility="Collapsed" Header="Signaturzahl:" PlaceholderText="z.B. 1,2,3" Margin="10,10,10,10" Width="120"/>
+                    <TextBox x:Name="textboxformat1" Visibility="Collapsed" Header="Format:" PlaceholderText="z.B. 2,4,8" Margin="10,10,10,10" Width="120"/>
+
+                    <TextBox x:Name="textboxseitenzahl2" Visibility="Collapsed" Header="Seitenzahl:" PlaceholderText="z.B. 316" Margin="50,10,10,10" Width="120"/>
+                    <TextBox x:Name="textboxformat2" Visibility="Collapsed" Header="Format:" PlaceholderText="z.B. 2,4,8" Margin="10,10,10,10" Width="120"/>
+
+                    <TextBox x:Name="textboxalphabet3" Visibility="Collapsed" Header="Alphabetanzahl:" PlaceholderText="z.B. 1,2,3" Margin="50,10,10,10" Width="120"/>
+                    <TextBox x:Name="textboxbogenzahl3" Visibility="Collapsed" Header="Bogenanzahl:" PlaceholderText="z.B. 1,2,3" Margin="10,10,10,10" Width="120"/>
+                    <TextBox x:Name="textboxformat3" Visibility="Collapsed" Header="Format:" PlaceholderText="z.B. 2,4,8" Margin="10,10,10,10" Width="120"/>
+                </StackPanel>
+
+                <StackPanel
+                    x:Name="buttonpanel"
+                    RelativePanel.Below="entrypanel"
+                    Orientation="Horizontal">
+                    <Button Style="{StaticResource AccentButtonStyle}" Content="berechnen" Click="BerechnenButton_Click" Margin="50,0,30,10" Width="100"/>
+                    <Button Style="{StaticResource AccentButtonStyle}" Content="löschen" Click="LöschenButton_Click" Margin="10,0,10,10" Width="100"/>
+                </StackPanel>
+
+                <TextBlock
+                    x:Name="resultoutput"
+                    Style="{StaticResource BodyTextBlockStyle}"
+                    RelativePanel.Below="buttonpanel"
+                    Margin="50,10,10,10">
+                </TextBlock>
+            </RelativePanel>
+        </StackPanel>
+
+    </ScrollViewer>
+            
+
+
+</Page>
+
